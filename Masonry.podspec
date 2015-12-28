@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   EOS
 
   s.source_files = 'Masonry/*.{h,m}'
+  s.watchos.deployment_target = "2.0"
 
   s.ios.frameworks = 'Foundation', 'UIKit'
   s.tvos.frameworks = 'Foundation', 'UIKit'
